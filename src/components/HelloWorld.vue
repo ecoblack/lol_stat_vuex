@@ -52,7 +52,7 @@ body {
   grid-template-columns: repeat(2, 50%);
   grid-template-rows: 100%;
   grid-template-areas: "left right";
-  height: 100%;
+  /* height: 100%; */
 }
 
 .left,

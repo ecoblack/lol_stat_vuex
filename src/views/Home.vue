@@ -1,8 +1,11 @@
 <template>
   <div class="home">
+    <Champion />
     <HelloWorld />
+    
     <Runes />
     <Level />
+    
   </div>
 </template>
 
@@ -11,13 +14,15 @@
 import HelloWorld from '@/components/HelloWorld.vue'
 import Runes from '@/components/Runes.vue'
 import Level from '@/components/Level.vue'
+import Champion from '@/components/Champion.vue'
 
 export default {
   name: 'home',
   components: {
     HelloWorld,
     Runes,
-    Level
+    Level,
+    Champion
   }
 }
 </script>

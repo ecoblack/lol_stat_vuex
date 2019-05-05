@@ -636,15 +636,9 @@ export default new Vuex.Store({
     activeChampion: ''
   },
   getters: {
-    countLinks: state => {
-      return state.links.length
-    },
     runesParsed: state => state.runes,
   },
   mutations: {
-    ADD_LINK: (state, link) => {
-      state.links.push(link)
-    },
     increment: (state, limit) => {
       if (state.level < limit) state.level++
     },
@@ -653,7 +647,7 @@ export default new Vuex.Store({
     },
     setActiveChampion: (state, champion) => {
       state.activeChampion = champion
-    }
+    },
   },
   actions: {
 

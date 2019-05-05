@@ -1,6 +1,6 @@
 <template>
   <div class="stats">
-    <h1>Right</h1>
+    <h1>'L E F T'</h1>
     <EnemyItems />
     <pre> store.$state.AD: {{ $store.state.AD  }}</pre>
   </div>

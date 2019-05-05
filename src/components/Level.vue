@@ -15,8 +15,8 @@
     </div>
     <div>
       <span>
-      Level
-      <pre> store.$state.level: {{ $store.state.level  }}</pre>
+       <pre> store.$state.level: {{ $store.state.level  }}</pre>
+     
       <button @click="increment(18)">+</button>
       <button @click="decrement(1)">-</button>
     </span>
